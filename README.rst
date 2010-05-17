@@ -1,3 +1,16 @@
+=============================
+django-asynchronous_send_mail
+=============================
+
+A very simple wrapper around Django's built in send_mail to send email asynchronously using Python's threading - really useful for servers with slow internet connection. If you want more advanced features like mail queuing or scheduling you should look at other alternatives such as _Django Mailer: http://github.com/jtauber/django-mailer/.
+
+OVERVIEW
+========
+
+For a more thorough explanation of what this bit of code tries to solve please visit::
+http://ui.co.id/blog/asynchronous-send_mail-in-django
+
+This is not intended to replace 
 
 INSTALLATION
 ============
